@@ -12,8 +12,8 @@ section.gifts {
     background-size: cover;
     position: relative;
     z-index: 1;
-    height: 1130px;
     padding-top: 40px;
+    padding-bottom: 20px;
     &::after {
         content: "";
         display: block;
@@ -170,7 +170,7 @@ section.delivery {
         font-size: 24px;
     }
     .gifts__item {
-        margin-bottom: 80px;
+        margin-bottom: 15px;
         &:last-child {
             margin-bottom: 0;
         }
@@ -195,6 +195,9 @@ section.delivery {
 }
 
 @media only screen and (min-width : 992px) {
+    section.gifts {
+        height: 1130px;
+    }
     .gifts__item-wrap {
         width: 255px;
         height: 255px;
@@ -210,7 +213,7 @@ section.delivery {
         display: inline-block;
     }
     .gifts__item-paragraph {
-        margin-top: 35px;
+        margin-top: 30px;
         font-size: 17px;
         font-family: "RobotoRegular";
         font-weight: 400;
