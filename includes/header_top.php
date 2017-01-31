@@ -2,14 +2,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="col-md-2 logo">
+				<div class="logo-wrap">
 					<a href="#" class="logo">Moy-Nosok</a>
 				</div>
-				<div class="logo-descr col-md-4">
-					<span>Кейсы с носками по выгодной цене</span>
+				<div class="descr-wrap">
+					<span class="logo-descr">Кейсы с носками по выгодной цене</span>
 				</div>
-				<div class="num col-md-4 col-md-offset-2">
-					<span>+ 7(499) 348-93-04</span>
+				<div class="num-wrap">
+					<span class="num">+ 7(499) 348-93-04</span>
 				</div>
 			</div>
 		</div>
