@@ -1,0 +1,17 @@
+.header { padding: 15px 0; }
+.header .logo { padding: 0; }
+.header .logo a { display: block; font-size: 24px; line-height: 42px; font-family: 'Hermes', arial, sans-serif; padding-left: 60px; color: #000; position: relative; }
+.header .logo a::before { content: ""; display: block; border-radius: 50%; width: 42px; height: 42px; background: #fadf0a; position: absolute; left: 0; top: 0; }
+.header .logo-descr span { font-size: 16px; display: block; padding: 0 12px; line-height: 42px; }
+.header .num { text-align: right; }
+.header .num span { font-size: 30px; font-weight: 700; font-family: 'Roboto', arial, sans-serif; padding-left: 50px; display: inline-block; background: url(../img/header_phone.png) left center no-repeat; }
+
+.footer { padding: 13px 0; }
+.footer .logo { padding: 0; }
+.footer .logo a { display: block; font-size: 24px; line-height: 42px; font-family: 'Hermes', arial, sans-serif; padding-left: 60px; color: #000; position: relative; }
+.footer .logo a::before { content: ""; display: block; border-radius: 50%; width: 42px; height: 42px; background: #fadf0a; position: absolute; left: 0; top: 0; }
+.footer__nav { text-align: center; }
+.footer__li { display: inline-block; }
+.footer__menu { font-size: 14px; color: #000; display: block; padding: 0 3px; line-height: 35px; }
+.footer .num { text-align: right; }
+.footer .num span { font-size: 30px; font-weight: 700; font-family: 'Roboto', arial, sans-serif; padding-left: 50px; display: inline-block; background: url(../img/header_phone.png) left center no-repeat; }

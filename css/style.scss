@@ -1,15 +1,20 @@
 @import "reset.css";
 @import "fonts.css";
-
 body{
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 17px;
+	color: #000;
 }
 .clear{
-    clear: both;
+  clear: both;
 }
 .center{
 	text-align: center;
+}
+.clearfix::after{
+	clear: both;
+	content: "";
+	display: table;
 }
 input[type="submit"]{
 	outline: none;
