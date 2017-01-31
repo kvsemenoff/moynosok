@@ -145,7 +145,7 @@
 						<div class="item-inner">
 							<h3 class="item__title">«Шерстяные»</h3>
 							<div class="item__img">
-								<img src="img/product-1.jpg" alt="">
+								<img src="img/product-4.jpg" alt="">
 							</div>
 							<div class="item__charact-wrap">
 								<div class="item__charact clearfix"><strong>Состав:</strong><span>73% шерсть, 27% акрил</span></div>
@@ -191,7 +191,7 @@
 						<div class="item-inner">
 							<h3 class="item__title">«Хлопок MIX»</h3>
 							<div class="item__img">
-								<img src="img/product-1.jpg" alt="">
+								<img src="img/product-5.jpg" alt="">
 							</div>
 							<div class="item__charact-wrap">
 								<div class="item__charact clearfix"><strong>Состав:</strong><span>100% хлопок</span></div>
@@ -237,7 +237,7 @@
 						<div class="item-inner">
 							<h3 class="item__title">«Бамбук MIX»</h3>
 							<div class="item__img">
-								<img src="img/product-1.jpg" alt="">
+								<img src="img/product-5.jpg" alt="">
 							</div>
 							<div class="item__charact-wrap">
 								<div class="item__charact clearfix"><strong>Состав:</strong><span>85% бамбук, 15% хлопок</span></div>
