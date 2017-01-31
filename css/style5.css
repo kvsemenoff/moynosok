@@ -1,3 +1,63 @@
-
-
+<<<<<<< HEAD
+.clear{clear:both}.dfsection{padding:30px 0 30px 0}.df-h2fq{margin-bottom:25px}.df-fq{max-width:1100px;width:100%;margin:0 auto;padding:30px 15px 30px 15px;background-color:#f4f4f4;border-radius:7px;margin-bottom:17px;text-align:center;margin-left:5px}.df-fq__img{display:inline-block;width:110px;margin:0 auto}.df-fq__txt{text-align:left;display:inline-block;max-width:935px;width:100%;vertical-align:top}.df-fq__txt h4{font-family:"RobotoBold";font-size:24px;color:#000000;line-height:24px;margin-bottom:20px}.df-fq__txt p{font-family:"RobotoRegular";color:#0a0100;font-size:17px;line-height:24px}.df-bg-img{background-image:url("../img/dfimgbg.jpg");background-repeat:no-repeat;background-position:top center;background-size:cover;padding:25px 0 30px 0px}.df-4cap{margin-bottom:29px}.df-2img{max-width:1100px;width:100%;margin:0 auto;text-align:center;padding-left:11px}.df-img1{max-width:360px;width:100%;text-align:center;display:inline-block}.df-img1 img{display:inline-block;width:100%;height:auto}.df-2img .df-img1:last-child{margin-right:0px}@media only screen and (min-width: 992px){.dfsection{padding:50px 0 30px 0}.df-h2fq{margin-bottom:45px}.df-fq{padding:35px 0 35px 0px}.df-fq__txt{padding-left:22px}.super{vertical-align:super;padding-top:35px}.df-bg-img{padding:55px 0 80px 0px}.df-4cap{margin-bottom:59px}.df-img1{margin-right:45px}}@media only screen and (min-width: 1248px){.df-img1{margin-right:215px}}
 /*# sourceMappingURL=style5.css.map */
+=======
+.clear {
+  clear: both; }
+
+/*===============fq==========*/
+.dfsection {
+  padding: 30px 0 30px 0; }
+
+.df-h2fq {
+  margin-bottom: 25px; }
+
+.df-fq {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 15px 30px 15px;
+  background-color: #f4f4f4;
+  border-radius: 7px;
+  margin-bottom: 17px;
+  text-align: center;
+  margin-left: 5px; }
+
+.df-fq__img {
+  display: inline-block;
+  width: 110px;
+  margin: 0 auto; }
+
+.super {
+  vertical-align: super;
+  padding-top: 35px; }
+
+.df-fq__txt {
+  text-align: left;
+  display: inline-block;
+  max-width: 935px;
+  width: 100%;
+  vertical-align: top; }
+  .df-fq__txt h4 {
+    font-family: "RobotoBold";
+    font-size: 24px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  .df-fq__txt p {
+    font-family: "RobotoRegular";
+    color: #0a0100;
+    font-size: 17px;
+    line-height: 24px; }
+
+@media only screen and (min-width: 992px) {
+  /*========fq========*/
+  .dfsection {
+    padding: 50px 0 30px 0; }
+  .df-h2fq {
+    margin-bottom: 45px; }
+  .df-fq {
+    padding: 35px 0 35px 0px; }
+  .df-fq__txt {
+    padding-left: 22px; } }
+>>>>>>> e80faddffd45300d8ac9c3e82c9b1cb26dafdc21
