@@ -1,4 +1,37 @@
 
+/* Купи
+==============================*/
+.dd-kupi-wrap{
+	background: url(../img/kb.jpg) no-repeat top center;
+	width: 100%;
+	background-size: cover;
+	padding-top: 36px;
+	padding-bottom: 47px;
+}
+.dd-kupi-title{
+	background: #FFE000;
+	padding: 4px 17px;
+	max-width:954px;
+	margin: 0 auto 21px;
+}
+.actsia{
+	background: #FF3736;
+	border-radius:25px;
+	padding: 9px 38px;
+	text-align:center;
+	display: inline-block;
+	margin-bottom: 18px;
+	span{
+		color:#fff;
+		font-size:31px;
+		font-family: "RobotoBold";
+	}
+}
+.dd-box1{
+	border: 2px solid #fadf0a;
+	border-radius: 5px;
+}
+
 @media only screen and (min-width : 320px) {
 }
 
