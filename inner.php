@@ -1,3 +1,7 @@
+<?php require_once('includes/header.php'); ?>
+
+
+
 <section class="section inner-site">
 	<div class="container">
 			<div class="row">
@@ -291,3 +295,6 @@
 			</div>
 	</div>
 </section>
+
+
+<?php require_once('includes/footer.php'); ?>
