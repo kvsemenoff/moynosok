@@ -29,15 +29,15 @@
 						</div>
 						<div class="dd-times">
 							<div class="dd-div">
-								<span id="dd-hours"></span><br>
+								<span class="dd-hours"></span><br>
 								<span class="time-txt">Часов</span>
 							</div>
 							<div class="dd-div dd-div-margin">
-								<span id="dd-min"></span><br>
+								<span class="dd-min"></span><br>
 								<span class="time-txt">Минут</span>
 							</div>
 							<div class="dd-div dd-div-margin">
-								<span id="dd-sec"></span><br>
+								<span class="dd-sec"></span><br>
 								<span class="time-txt">Секунд</span>
 							</div>
 						</div>
