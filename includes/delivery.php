@@ -4,7 +4,7 @@
 			<div class="col-md-12">
 				<div class="delivery__wrap">
 				    <h2 class="delivery__title"><strong class="delivery__strong">Доставка</strong> и оплата</h2>
-				    <p class="delivery__paragraph">Доставка по Москве осуществляется курьерской службой.Сроки доставки: 1-2 дня. 
+                    <p class="delivery__paragraph">Доставка по Москве осуществляется курьерской службой.Сроки доставки: <span class="delivery__marked"><strong>1-2 дня</strong></span>. 
 <br>Доставка по России осуществляется курьерской службой или почтой России (в зависимости от региона). 
                         <br>Сроки доставки <span class="delivery__marked"><strong>2-12 дней</strong></span>.</p> 
                     <p class="delivery__paragraph">Стоимость доставки – <span class="delivery__marked"><strong>от 350 р.</strong></span> (в зависимости от региона).
