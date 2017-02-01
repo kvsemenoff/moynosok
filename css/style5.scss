@@ -84,6 +84,18 @@
 	margin-right: 0px;
 }
 
+#fancybox-close{
+	position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: transparent url("../img/kres2.png") -40px 0px;
+    cursor: pointer;
+    z-index: 1103;
+}
+//////
+
 .catalog-button input{
 	display: inline-block;
 	padding: 6px 15px !important;
@@ -95,7 +107,7 @@
 
 }
 .catalog-button input:hover{
-	background: #ffcc00; /* Old browsers */
+	background: #ffcc00; 
 	background: -moz-linear-gradient(top,  #ffcc00 0%, #ffea01 100%) !important; 
 	background: -webkit-linear-gradient(top,  #ffcc00 0%,#ffea01 100%) !important;
 	background: linear-gradient(to bottom,  #ffcc00 0%,#ffea01 100%) !important; 
