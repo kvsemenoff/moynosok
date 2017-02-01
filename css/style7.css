@@ -248,8 +248,7 @@ section.delivery {
     margin-bottom: 60px; }
   .popup__form {
     padding-top: 40px;
-    padding-bottom: 40px;
-    background: url(/img/gifts/form_bg.jpg) 0 0 no-repeat #000; }
+    padding-bottom: 40px; }
     .popup__form form {
       margin: 0 auto;
       width: 90%;
