@@ -26,16 +26,18 @@
 							</div>
 							<span class="item__price">1 390 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Натуральный Хлопок»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
 							<div class="item__circle item__circle--1">
@@ -72,16 +74,18 @@
 							</div>
 							<span class="item__price">1 390 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Бамбуковые носки»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
 							<div class="item__circle item__circle--1">
@@ -116,19 +120,26 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 390 руб.</span>
+							<span class="item__price">1 490 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Хлопок Люкс»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
+								<script>
+									$(function(){
+										var a = 100;					
+									});
+								</script>
 							</div>
 							<div class="item__circle item__circle--1">
 								<span>30 пар <i>1390 p.</i></span>
@@ -164,16 +175,18 @@
 							</div>
 							<span class="item__price">1 390 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Шерстяные»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
 							<div class="item__circle item__circle--1">
@@ -210,16 +223,18 @@
 							</div>
 							<span class="item__price">1 390 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Хлопок MIX»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
 							<div class="item__circle item__circle--1">
@@ -256,16 +271,18 @@
 							</div>
 							<span class="item__price">1 390 руб.</span>
 							<div class="item__form">
-								<form>
+								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
 										</div>
-										<div class="catalog-button">
-											<button class="button-1">Заказать</button>
+										<div class="catalog-button">									
+											<input type="submit" name="submit" class="button-1" value="Заказать">
 										</div>
 									</div>
+									<input type="hidden" name="nametovar" value="«Бамбук MIX»">
+									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
 							<div class="item__circle item__circle--1">

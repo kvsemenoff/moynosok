@@ -34,7 +34,6 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
-
     var count = 8;
     var minutes = 12;
     var hours = 21;
@@ -43,37 +42,37 @@ $(document).ready(function(){
 
     if (count < 10) {
         $('.dd-sec').each(function(){
-           $(this).html('0'+count); 
-       });
+         $(this).html('0'+count); 
+     });
     }
     else {
       $('.dd-sec').each(function(){
-       $(this).html(count); 
-   });
+         $(this).html(count); 
+     });
   }
 
   if (minutes < 10) {
       $('.dd-min').each(function(){
-       $(this).html('0'+minutes); 
-   });
+         $(this).html('0'+minutes); 
+     });
   }
   else {
-   $('.dd-min').each(function(){
-       $(this).html(minutes); 
-   });
-}
+     $('.dd-min').each(function(){
+         $(this).html(minutes); 
+     });
+ }
 
-if (hours < 10) {
+ if (hours < 10) {
     // $("#dd-hours").html('0'+hours);
-     $('.dd-hours').each(function(){
-       $(this).html('0'+hours);
-   });
+    $('.dd-hours').each(function(){
+     $(this).html('0'+hours);
+ });
 }
 else {
     // $("#dd-hours").html(hours);
-       $('.dd-hours').each(function(){
-       $(this).html(hours);
-   });
+    $('.dd-hours').each(function(){
+     $(this).html(hours);
+ });
 }
 
     var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
@@ -83,13 +82,13 @@ else {
         count = count - 1;
         if (count < 10) {
             $('.dd-sec').each(function(){
-               $(this).html('0'+count); 
-           });
+             $(this).html('0'+count); 
+         });
         }
         else {
           $('.dd-sec').each(function(){
-           $(this).html(count); 
-       });
+             $(this).html(count); 
+         });
       }
       if (count == 0) {
         minutes = minutes - 1;
@@ -97,30 +96,30 @@ else {
                 // $("#dd-min").html('0'+minutes);
 
                 $('.dd-min').each(function(){
-                   $(this).html('0'+minutes); 
-               });
+                 $(this).html('0'+minutes); 
+             });
 
 
             }
             if (minutes > 10) {
                 // $("#dd-min").html(minutes);
                 $('.dd-min').each(function(){
-                   $(this).html(minutes); 
-               });
+                 $(this).html(minutes); 
+             });
             }
             if (minutes < 0) {
                 hours = hours - 1;
                 if (hours < 10 && hours >=0) {
                     // $("#dd-hours").html('0'+hours);
                     $('.dd-hours').each(function(){
-                       $(this).html('0'+hours); 
-                   });
+                     $(this).html('0'+hours); 
+                 });
                 }
                 if (hours>10) {
                     // $("#dd-hours").html('0'+hours);
-                      $('.dd-hours').each(function(){
-                       $(this).html('0'+hours); 
-                   });
+                    $('.dd-hours').each(function(){
+                     $(this).html('0'+hours); 
+                 });
                 }
                 if (hours < 0 ) {
 
@@ -149,6 +148,46 @@ else {
 // Timer2
 
 
+// });
+
+/*===========popups============*/  
+
+$(".phone").mask("+ 7 (999) 999 - 99 - 99?");
+
+$(".form1").submit(function() { 
+    var tel = $(this).find('input[name="phone"]');
+    var empty = false;
+    if (tel.val() == ""){
+        empty = true;
+    }
+    if (empty == true){
+        tel.addClass("error-input");
+        tel.focus();
+    }else{
+        var form_data = $(this).serialize(); 
+        $.ajax({
+            type: "POST", 
+            url: "/sendmessage.php", 
+            data: form_data,
+            success: function() {            
+                cleanTnanks(".form1");
+            }
+        });
+    }
+    return false;
 });
+function cleanTnanks(form){
+    $('input[type="text"]').removeClass("error-input");
+    $("input[type=text], textarea").val("");
+    $('.window').hide();
+    location = "thanks.php";
+};
+
+$('.item__price').each(function(){
+    $(this).next('.item__form').find('.dfprice').val($(this).html());
+});
+
+});
+
 
 
