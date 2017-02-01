@@ -14,6 +14,9 @@
 	max-width:954px;
 	margin: 0 auto 21px;
 }
+.dd-kupi-keys{
+	margin-bottom: 38px;
+}
 .actsia{
 	background: #FF3736;
 	border-radius:25px;
@@ -33,6 +36,8 @@
 	width: 258px;
 	text-align:center;
 	padding: 15px 15px 20px 15px;
+	margin-bottom: 38px;
+	margin: 0 auto 38px;
 }
 .dd-box-title{
 	padding-bottom: 24px;
@@ -42,6 +47,7 @@
 		font-size:18px;
 	}
 }
+
 .vpodarok{
 	display:inline-block;
 	color:#fff;
@@ -71,6 +77,18 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-box2{
+		width:320px;
+		float: left;
+		padding-bottom: 16px;
+		margin-left: 30px;
+	}
+	.dd-box1{
+		float: left;
+	}
+	.m-left{
+		margin-left: 44px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

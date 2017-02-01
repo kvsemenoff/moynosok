@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="col-md-7">
-				<div class="dd-box1">
+				<div class="dd-box1 m-left">
 					<div class="dd-box-title">
 						<span>К каждому заказу</span>
 					</div>
@@ -25,15 +25,16 @@
 					<span class="bottom-txt">– 2 пары войлочных</span><br>
 					<span class="bottom-txt">фольгированных стелек</span>
 				</div>
-				<div class="dd-box1">
+				<div class="dd-box1 dd-box2">
 					<div class="dd-box-title">
 						<span>Свыше 1990</span>
 					</div>
-					<img src="img/ddimg2.png" alt="">
+					<img class="img-responsive" src="img/ddimg2.png" alt="">
 					<span class="vpodarok">в подарок</span><br>
 					<span class="bottom-txt">– 2 пары войлочных</span><br>
 					<span class="bottom-txt">фольгированных стелек</span>
 				</div>
+				<div class="clearfix"></div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
