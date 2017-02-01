@@ -15,7 +15,7 @@
 	margin: 0 auto 21px;
 }
 .dd-kupi-keys{
-	margin-bottom: 38px;
+	margin-bottom: 21px;
 }
 .actsia{
 	background: #FF3736;
@@ -35,9 +35,9 @@
 	border-radius: 5px;
 	width: 258px;
 	text-align:center;
-	padding: 15px 15px 20px 15px;
+	padding: 15px 15px 10px 15px;
 	margin-bottom: 38px;
-	margin: 0 auto 38px;
+	margin: 20px auto 38px;
 }
 .dd-box-title{
 	padding-bottom: 24px;
@@ -66,31 +66,110 @@
 	font-size: 18px;
 }
 
-
+// Timer
+.dd-timer-all-wrap{
+	width: 260px;
+	text-align: center;
+	margin: 0 auto;
+	.dd-timer{
+		.dd-timer-title{
+			color:#fff;
+			font-size: 28px;
+			font-family: "RobotoBold";
+			padding-bottom: 15px;
+		}
+		.dd-times{
+			.dd-div{
+				background: #fff;
+				border-radius: 3px;
+				border-bottom:3px solid #FFD700;
+				float: left;
+				margin-left: 10px;
+				height: 129px;
+				width: 73px;
+				position:relative;
+				margin-top: 5px;
+				padding-top: 21px;
+				span{
+					display: inline-block;
+					color:black;
+					font-size: 75px;
+					line-height: 15px;
+					font-family: 'Hermes';
+					line-height: 55px;
+				}
+			}
+			.time-txt{
+				font-family: "RobotoBold";
+				display: inline-block;
+				color:black;
+				font-size: 25px !important;
+			}
+		}
+	}
+}
+.dd-img-respons2{
+	display: none;
+}
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-timer-all-wrap{
+		width: 464px;
+		.dd-timer{
+			.dd-times{
+				.dd-div{
+					width: 133px;
+				}
+				.dd-div-margin{
+					margin-left: 27px;
+				}
+				.time-txt{
+					font-size: 28px !important;	
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
 }
 
 @media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 1270px) {
+	.dd-img-respons2{
+		display: block;
+		margin-left: -15px;
+	}
+	.dd-img-respons{
+		display: none;
+	}
 	.dd-box2{
 		width:320px;
 		float: left;
-		padding-bottom: 16px;
-		margin-left: 30px;
+		padding-bottom: 7px;
+		margin-left: 30px !important;
+	}
+	.dd-box3{
+		width: 610px;
+		margin-left: 45px !important;
+	}
+	.dd-box3-element{
+		float: left;
+	}
+	.dd-box3-element2{
+		margin-left: 35px;
 	}
 	.dd-box1{
 		float: left;
+		margin: 7px auto 22px;
 	}
 	.m-left{
 		margin-left: 44px;
 	}
-}
-
-@media only screen and (min-width : 1248px) {
 }
 
