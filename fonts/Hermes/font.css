@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Hermes';
+  src: url('../fonts/Hermes/Hermes.eot');
+  src: url('../fonts/Hermes/Hermes.woff2') format('woff2'),
+       url('../fonts/Hermes/Hermes.woff') format('woff'),
+       url('../fonts/Hermes/Hermes.ttf') format('truetype'),
+       url('../fonts/Hermes/Hermes.svg#Hermes') format('svg'),
+       url('../fonts/Hermes/Hermes.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
