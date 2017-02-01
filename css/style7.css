@@ -132,6 +132,10 @@ section.delivery {
     font-size: 17px;
     font-family: "RobotoRegular";
     font-weight: 400; }
+  .nosok__form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #fefefe; }
   .gifts__title {
     font-size: 48px;
     line-height: 48px;
@@ -149,10 +153,47 @@ section.delivery {
     line-height: 25px;
     width: 500px; } }
 
+.popup__form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: url(/img/gifts/form_bg.jpg) 0 0 no-repeat #efdc46; }
+  .popup__form input[type="text"] {
+    width: 90%;
+    max-width: 333px;
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px; }
+  .popup__form input[type="submit"] {
+    display: block;
+    font-size: 18px;
+    width: 90%;
+    max-width: 333px;
+    margin: 0 auto;
+    line-height: 40px; }
+  .popup__form form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1110px; }
+
 @media only screen and (min-width: 768px) {
   .gifts__item-wrap {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  .popup__form input[type="text"] {
+    width: 48%;
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px; }
+  .popup__form input[type="submit"] {
+    display: block;
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 40px; } }
 
 @media only screen and (min-width: 992px) {
   section.gifts {
@@ -205,3 +246,44 @@ section.delivery {
     padding-left: 80px; }
   .delivery__title {
     margin-bottom: 60px; }
+  .popup__form {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .popup__form form {
+      margin: 0 auto;
+      width: 90%;
+      max-width: 1110px; }
+      .popup__form form input[type="text"] {
+        margin: 0;
+        margin-right: 25px;
+        width: 48%;
+        max-width: 280px;
+        display: inline-block;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 16px; }
+        .popup__form form input[type="text"]:first-child {
+          margin-right: 20px; }
+      .popup__form form input[type="submit"] {
+        display: inline-block;
+        font-size: 18px;
+        width: 90%;
+        max-width: 280px;
+        margin: 0 auto;
+        line-height: 40px; } }
+
+@media only screen and (min-width: 1110px) {
+  .popup__form form {
+    width: 100%; }
+    .popup__form form input[type="text"] {
+      font-size: 20px;
+      margin: 0;
+      margin-right: 70px;
+      max-width: 333px;
+      height: 60px; }
+      .popup__form form input[type="text"]:first-child {
+        margin-right: 45px; }
+    .popup__form form input[type="submit"] {
+      max-width: 320px;
+      font-size: 26px;
+      line-height: 60px; } }

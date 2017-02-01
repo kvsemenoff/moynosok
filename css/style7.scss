@@ -161,6 +161,12 @@ section.delivery {
         font-weight: 400;
     }
     
+    .nosok__form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: #fefefe;
+    }
+    
     .gifts__title {
         font-size: 48px;
         line-height: 48px;
@@ -187,11 +193,56 @@ section.delivery {
    
 }
 
+.popup__form {
+    input[type="text"] {
+        width: 90%;
+        max-width: 333px;
+        margin: 0 auto;
+        display: block;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    input[type="submit"] {
+        display: block;
+        font-size: 18px;
+        width: 90%;
+        max-width: 333px;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+    form {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1110px
+    }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url(/img/gifts/form_bg.jpg) 0 0 no-repeat #efdc46;
+}
+
 @media only screen and (min-width : 768px) {
      .gifts__item-wrap {
         width: 200px;
         height: 200px;
-    }   
+    }
+    .popup__form {
+    input[type="text"] {
+        width: 48%;
+        margin: 0 auto;
+        display: block;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    input[type="submit"] {
+        display: block;
+        font-size: 18px;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -263,8 +314,60 @@ section.delivery {
     .delivery__title {
         margin-bottom: 60px;
     }
+    
+    .popup__form {
+        form {
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1110px;
+            input[type="text"] {
+                margin: 0;
+                margin-right: 25px;
+                &:first-child {
+                  margin-right: 20px;  
+                }
+                width: 48%;
+                max-width: 280px;
+                display: inline-block;
+                height: 40px;
+                margin-bottom: 20px;
+                font-size: 16px;
+    }
+    input[type="submit"] {
+        display: inline-block;
+        font-size: 18px;
+        width: 90%;
+        max-width: 280px;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+        }
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
-
+@media only screen and (min-width : 1110px) {
+    .popup__form {
+        form {
+            width: 100%;
+            input[type="text"] {
+                font-size: 20px;
+                margin: 0;
+                margin-right: 70px;
+                max-width: 333px;
+                height: 60px;
+                &:first-child {
+                    margin-right: 45px;
+                }
+            }
+            input[type="submit"] {
+                max-width: 320px;
+                font-size: 26px;
+                line-height: 60px;
+            }
+        }
+    }
+}
 @media only screen and (min-width : 1248px) {
     
 }
