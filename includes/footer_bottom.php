@@ -18,11 +18,11 @@
 				</nav>
 			</div>
 			<div class="col-md-12">
-				<div class="col-md-2 logo">
-					<a href="#">Moy-Nosok</a>
+				<div class="num-wrap">
+					<span class="num">+ 7(499) 348-93-04</span>
 				</div>
-				<div class="num col-md-4 col-md-offset-6">
-					<span>+ 7(499) 348-93-04</span>
+				<div class="logo-wrap">
+					<a href="#" class="logo">Moy-Nosok</a>
 				</div>
 			</div>
 		</div>
