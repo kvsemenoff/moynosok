@@ -33,6 +33,44 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+    /*===========popups============*/  
+  
+     $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
+
+    $(".form1").submit(function() { 
+        var tel = $(this).find('input[name="phone"]');
+        var empty = false;
+        if (tel.val() == ""){
+            empty = true;
+        }
+        if (empty == true){
+            tel.addClass("error-input");
+            tel.focus();
+        }else{
+            var form_data = $(this).serialize(); 
+            $.ajax({
+                type: "POST", 
+                url: "/sendmessage.php", 
+                data: form_data,
+                success: function() {            
+                    cleanTnanks(".form1");
+                }
+            });
+        }
+        return false;
+    });
+    function cleanTnanks(form){
+        $('input[type="text"]').removeClass("error-input");
+        $("input[type=text], textarea").val("");
+        $('.window').hide();
+        location = "thanks.php";
+    };
+
+    $('.item__price').each(function(){
+        $(this).next('.item__form').find('.dfprice').val($(this).html());
+    });
+
  });
 
 

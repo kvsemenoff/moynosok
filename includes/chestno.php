@@ -9,7 +9,7 @@
 					</div>
 					<div class="df-img1">
 						<img src="img/dfimg2.png" alt="">
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>
