@@ -20,10 +20,23 @@
 					<div class="dd-box-title">
 						<span>К каждому заказу</span>
 					</div>
-					<img src="img/" alt="">
+					<img src="img/ddimg1.png" alt="">
+					<span class="vpodarok">в подарок</span><br>
+					<span class="bottom-txt">– 2 пары войлочных</span><br>
+					<span class="bottom-txt">фольгированных стелек</span>
+				</div>
+				<div class="dd-box1">
+					<div class="dd-box-title">
+						<span>Свыше 1990</span>
+					</div>
+					<img src="img/ddimg2.png" alt="">
+					<span class="vpodarok">в подарок</span><br>
+					<span class="bottom-txt">– 2 пары войлочных</span><br>
+					<span class="bottom-txt">фольгированных стелек</span>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 </section>
+<?php require('forms.php'); ?>

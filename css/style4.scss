@@ -30,7 +30,36 @@
 .dd-box1{
 	border: 2px solid #fadf0a;
 	border-radius: 5px;
+	width: 258px;
+	text-align:center;
+	padding: 15px 15px 20px 15px;
 }
+.dd-box-title{
+	padding-bottom: 24px;
+	span{
+		color:#fff;
+		font-family: "RobotoBold";
+		font-size:18px;
+	}
+}
+.vpodarok{
+	display:inline-block;
+	color:#fff;
+	background: #FF3736;
+	font-family: "RobotoBold";
+	padding: 6px 23px;
+	border-radius:25px;
+	margin-top: 10px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.bottom-txt{
+	display:inline-block;
+	font-family: "RobotoBold";
+	color:#fff;
+	font-size: 18px;
+}
+
 
 @media only screen and (min-width : 320px) {
 }
