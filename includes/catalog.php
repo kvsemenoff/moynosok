@@ -40,13 +40,13 @@
 									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
-							<div class="item__circle item__circle--1">
+							<div class="item__circle item__circle--1 dfpriceT df-active">
 								<span>30 пар <i>1390 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
+							<div class="item__circle item__circle--2 dfpriceT">
 								<span>50 пар <i>1790 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
+							<div class="item__circle item__circle--3 dfpriceT">
 								<span>100 пар <i>2490 p.</i></span>
 							</div>
 						</div>
@@ -88,14 +88,14 @@
 									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
-							<div class="item__circle item__circle--1">
-								<span>30 пар <i>1390 p.</i></span>
+							<div class="item__circle item__circle--1 dfpriceT df-active">
+								<span>30 пар <i>1790 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
-								<span>50 пар <i>1790 p.</i></span>
+							<div class="item__circle item__circle--2 dfpriceT">
+								<span>50 пар <i>2490 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
-								<span>100 пар <i>2490 p.</i></span>
+							<div class="item__circle item__circle--3 dfpriceT">
+								<span>100 пар <i>3990 p.</i></span>
 							</div>
 						</div>
 					</div>
@@ -141,14 +141,14 @@
 									});
 								</script>
 							</div>
-							<div class="item__circle item__circle--1">
-								<span>30 пар <i>1390 p.</i></span>
+							<div class="item__circle item__circle--1 dfpriceT df-active">
+								<span>30 пар <i>1990 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
-								<span>50 пар <i>1790 p.</i></span>
+							<div class="item__circle item__circle--2 dfpriceT">
+								<span>50 пар <i>2990 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
-								<span>100 пар <i>2490 p.</i></span>
+							<div class="item__circle item__circle--3 dfpriceT">
+								<span>100 пар <i>4990 p.</i></span>
 							</div>
 						</div>
 					</div>
@@ -189,14 +189,14 @@
 									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
-							<div class="item__circle item__circle--1">
-								<span>30 пар <i>1390 p.</i></span>
+							<div class="item__circle item__circle--1 dfpriceT df-active">
+								<span>30 пар <i>2990 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
-								<span>50 пар <i>1790 p.</i></span>
+							<div class="item__circle item__circle--2 dfpriceT">
+								<span>50 пар <i>3190 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
-								<span>100 пар <i>2490 p.</i></span>
+							<div class="item__circle item__circle--3 dfpriceT">
+								<span>100 пар <i>5390 p.</i></span>
 							</div>
 						</div>
 					</div>
@@ -237,14 +237,14 @@
 									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
-							<div class="item__circle item__circle--1">
-								<span>30 пар <i>1390 p.</i></span>
+							<div class="item__circle item__circle--1 dfpriceT df-active">
+								<span>30 пар <i>1790 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
-								<span>50 пар <i>1790 p.</i></span>
+							<div class="item__circle item__circle--2 dfpriceT">
+								<span>50 пар <i>2790 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
-								<span>100 пар <i>2490 p.</i></span>
+							<div class="item__circle item__circle--3 dfpriceT">
+								<span>100 пар <i>4990 p.</i></span>
 							</div>
 						</div>
 					</div>
@@ -285,14 +285,14 @@
 									<input type="hidden" name="price" class="dfprice" value="">
 								</form>
 							</div>
-							<div class="item__circle item__circle--1">
-								<span>30 пар <i>1390 p.</i></span>
+							<div class="item__circle item__circle--1 dfpriceT df-active">
+								<span>30 пар <i>1490 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--2">
-								<span>50 пар <i>1790 p.</i></span>
+							<div class="item__circle item__circle--2 dfpriceT">
+								<span>50 пар <i>1890 p.</i></span>
 							</div>
-							<div class="item__circle item__circle--3">
-								<span>100 пар <i>2490 p.</i></span>
+							<div class="item__circle item__circle--3 dfpriceT">
+								<span>100 пар <i>2790 p.</i></span>
 							</div>
 						</div>
 					</div>
@@ -301,3 +301,7 @@
 		</div>
 	</div>
 </section>
+<script>
+
+	
+</script>

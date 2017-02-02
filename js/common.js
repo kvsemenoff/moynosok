@@ -183,10 +183,27 @@ function cleanTnanks(form){
     location = "thanks.php";
 };
 
-$('.item__price').each(function(){
-    $(this).next('.item__form').find('.dfprice').val($(this).html());
-});
 
+
+
+
+  $('.dfpriceT').on('click', function(){    
+    
+    $('.dfpriceT').each(function(){
+      if ($(".dfpriceT").hasClass("df-active")) {
+                $(".dfpriceT").removeClass("df-active");
+            }
+    });
+    $(this).addClass('df-active');
+
+    var changeprice = $('.df-active').find('i').text();
+    $(this).prevAll('.item__price').text(changeprice);
+  
+    $('.item__price').each(function(){
+     $(this).next('.item__form').find('.dfprice').val($(this).html());
+    });
+
+  });
 });
 
 
