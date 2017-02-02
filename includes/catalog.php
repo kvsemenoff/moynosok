@@ -30,7 +30,7 @@
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
@@ -72,13 +72,13 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 390 руб.</span>
+							<span class="item__price">1 790 руб.</span>
 							<div class="item__form">
 								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
@@ -120,13 +120,13 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 490 руб.</span>
+							<span class="item__price">1 990 руб.</span>
 							<div class="item__form">
 								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
@@ -173,13 +173,13 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 390 руб.</span>
+							<span class="item__price">2 290 руб.</span>
 							<div class="item__form">
 								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
@@ -221,13 +221,13 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 390 руб.</span>
+							<span class="item__price">1 790 руб.</span>
 							<div class="item__form">
 								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
@@ -269,13 +269,13 @@
 									<span>25, 27, 29, 31</span>
 								</div>
 							</div>
-							<span class="item__price">1 390 руб.</span>
+							<span class="item__price">1 490 руб.</span>
 							<div class="item__form">
 								<form action="thanks.php" method="post" class="form1">
 									<span class="form-title">Ваш номер телефона:</span>
 									<div class="clearfix">
 										<div class="catalog-input">
-											<input type="text" class="phone" name="phone" placeholder="+7910 567 89 34">
+											<input type="text" class="phone" name="phone" placeholder="+7xxx xxx xx xx">
 										</div>
 										<div class="catalog-button">									
 											<input type="submit" name="submit" class="button-1" value="Заказать">
